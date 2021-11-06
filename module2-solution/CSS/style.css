@@ -27,12 +27,13 @@ h1 {
 
 
 section {
-  border: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
   background-color: #A52A2A;
   width: 130px;
-  height: 1.5em;
+  height: 2em;
   margin-left: auto;
-  margin-top: auto;
+  padding-top: 6px;
   font-family: Helvetica;
   color: white;
   text-align: center;
@@ -42,9 +43,6 @@ div > div > div {
   background-color: #DCDCDC;
   margin: 13px;
   border: 1px solid black;
-  /* padding-left: 15px;
-  padding-right: 15px; */
-
 }
 
 p {
@@ -64,7 +62,7 @@ p {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
-  .col-lg-1 {         /* Los porcentajes representan cuántas columnas de 12 totales ocupará el elemento. Con la primera clase ocupamos una sola columna (8.33% de 12 es 1), con la segunda 2, etc... */
+  .col-lg-1 {
     width: 8.33%;
   }
   .col-lg-2 {
