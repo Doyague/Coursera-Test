@@ -1,21 +1,9 @@
 
 
-#id1 {
-  background-color: #e35d84;
-  color: black;
-}
-
-#id2 {
-  background-color: #c20006;
-}
-
-#id3 {
-  background-color: #d6b004;
-  color: black;
-}
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+  overflow: auto;
 }
 
 h1 {
@@ -43,6 +31,7 @@ div > div > div {
   background-color: #DCDCDC;
   margin: 13px;
   border: 1px solid black;
+  padding-bottom: 10px;
 }
 
 p {
@@ -141,4 +130,20 @@ p {
   .col-md-12 {
     width: 100%;
   }
+}
+
+/* Mobile layout specific id's */
+
+#id1 {
+  background-color: #e35d84;
+  color: black;
+}
+
+#id2 {
+  background-color: #c20006;
+}
+
+#id3 {
+  background-color: #d6b004;
+  color: black;
 }
