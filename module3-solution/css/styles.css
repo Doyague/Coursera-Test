@@ -67,8 +67,8 @@ h2 {
     background-clip: content-box;
     -webkit-text-stroke: 3px yellow;
     padding-top: 15px;
-    padding-left: 32%;
-    padding-right: 32%;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-top: 35px;
 }
 
@@ -79,7 +79,7 @@ h2 {
 
 
 .col-xs-12 {
-    float: none;
+    float: left;
     padding: 0 20px 20px 20px;
     margin: 15px;
     background-color: darkgrey;
@@ -125,6 +125,8 @@ h2 {
 
 h2 {
     font-size: 2.8em;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
